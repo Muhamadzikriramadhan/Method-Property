@@ -1,31 +1,20 @@
 <?php
  
-class mobil{
+class laptop{
  
-    var $warna;
+    var $pemilik;
     var $merek;
-    var $ukuran;
+    var $ukuran_layar;
  
-   function maju(){
- 
+   function hidupkan_laptop(){
+       return "Hidupkan Laptop";
    }
  
-   function berhenti(){
-    
+   function matikan_laptop(){
+       return "Matikan Laptop";
    }
  
 }
  
-?>
-
-<?php
-
-
-class mobil{
-  
-
-}
-
-$mobil = new mobil();
-
-?>
+$laptop_anto = new laptop();
+echo $laptop_anto -> hidupkan_latop();
